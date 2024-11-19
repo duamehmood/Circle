@@ -1,0 +1,564 @@
+/* ===== 01. Global Style ===== */
+
+@media screen and (max-width: 991px) {
+    h2 {
+        font-size: 24px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .hover1 {
+        padding: 12px 20px;
+        width: 100%;
+    }
+
+    .hover2 {
+        padding: 12px 20px;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+}
+
+/* ===== End of 01. Global Style ===== */
+
+
+/* ========= 1.1. Header section ======== */
+
+@media screen and (max-width: 768px) {
+    header .nav-link {
+        padding: 8px 16px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    header .nav-link {
+        padding: 8px 8px;
+    }
+
+}
+
+/* ========= End of 1.1. Header section ======== */
+
+@media screen and (max-width: 1399px) {
+    .Hero h1 {
+        padding: 0 130px;
+    }
+
+    .Hero p {
+        padding: 20px 320px 30px 320px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .Hero h1 {
+        padding: 0 100px;
+    }
+
+    .Hero p {
+        padding: 20px 230px 30px 230px;
+    }
+
+    .Hero img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .Hero {
+        padding: 70px 0;
+    }
+
+    .Hero h1 {
+        padding: 0;
+    }
+
+    .Hero p {
+        padding: 20px 110px 30px 110px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Hero {
+        padding: 50px 0;
+    }
+
+    .Hero h1 {
+        padding: 0;
+    }
+
+    .Hero p {
+        padding: 20px 30px 30px 30px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .Hero {
+        background-image: linear-gradient(to bottom, #EFFEFF 0%, #EFFEFF 75%, #FFFFFF 75%, #FFFFFF 100%);
+    }
+
+    .Hero p {
+        padding: 20px 0 30px 0;
+    }
+
+    .Hero a {
+        padding: 10px 0 10px 15px;
+    }
+
+    .Hero i {
+        padding: 0 10px 0 5px;
+    }
+
+}
+
+/* ========= End of 1.2. Hero section ======== */
+
+/*======== 1.3. Customer Section ======== */
+
+@media screen and (max-width: 1199px) {
+    .Customer .d-flex {
+        gap: 40px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Customer .d-flex {
+        gap: 20px;
+    }
+
+    .Customer {
+        padding-bottom: 70px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Customer {
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .Customer img {
+        width: 95px;
+    }
+
+}
+
+/* ========= End of 1.3.Customer Section ======== */
+
+/*======== 1.4.Promise Section ======== */
+
+@media screen and (max-width: 1399px) {
+    .Promise p {
+        padding: 0 30px 20px 0;
+    }
+
+
+}
+
+@media screen and (max-width: 1199px) {
+    .Promise p {
+        padding: 0 50px 20px 0;
+    }
+
+    .Promise img {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .Promise p {
+        padding: 0 0 20px 0;
+    }
+
+    .Promise {
+        padding-bottom: 70px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Promise {
+        padding-bottom: 50px;
+    }
+
+    .Promise img {
+        padding-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .Promise h3 {
+        padding: 4px 8px;
+    }
+
+    .Promise img {
+        padding-top: 30px;
+    }
+
+
+}
+
+/* ========= End of 1.4.Promise Section ======== */
+
+/*======== 1.5.Awards Section ======== */
+
+@media screen and (max-width: 1399px) {
+    .Awards p {
+        padding: 10px 90px 45px 90px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .Awards p {
+        padding: 10px 60px 45px 60px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Awards {
+        padding-bottom: 70px;
+    }
+
+    .Awards p {
+        padding: 10px 80px 45px 80px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Awards {
+        padding-bottom: 50px;
+    }
+
+    .Awards p {
+        padding: 10px 0 45px 0;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .Awards h3 {
+        padding: 4px 8px;
+    }
+
+    .Awards h2 {
+        padding: 10px 0 30px 0;
+    }
+
+}
+
+/*======== END OF 1.5 Awards Section ======== */
+
+/*======== 1.6 Built For People Section ======== */
+
+@media screen and (max-width: 1399px) {
+    .Built .mx-auto p:nth-of-type(2) {
+        padding-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .Built .mx-auto p:nth-of-type(2) {
+        padding-right: 30px;
+    }
+
+    .Built .p-0 img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Built {
+        padding-bottom: 70px;
+    }
+
+    .Built .row {
+        align-items: center;
+    }
+
+    .Built .mx-auto p:nth-of-type(2) {
+        padding-right: 0;
+    }
+
+    .Built .d-flex div {
+        width: 25%;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .Built {
+        padding-bottom: 50px;
+    }
+
+    .Built .d-flex {
+        row-gap: 10px;
+        column-gap: 30px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .Built .d-flex div {
+        width: 40%;
+    }
+
+
+}
+
+
+
+/*======== END OF 1.6 Built Section  ======== */
+
+/*======== 1.7 Testimonials Section  ======== */
+
+@media screen and (max-width: 1399px) {
+    .Testimonials h2 {
+        padding: 15px 80px 35px 0;
+    }
+
+    .Testimonials .m-0 p:nth-of-type(1) {
+        padding-right: 40px;
+    }
+
+    .Testimonials .m-0 p:nth-of-type(2) {
+        padding: 20px 60px 30px 0;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .Testimonials h2 {
+        padding: 15px 40px 35px 0;
+    }
+
+    .Testimonials .m-0 p:nth-of-type(1) {
+        padding-right: 10px;
+    }
+
+    .Testimonials .m-0 p:nth-of-type(2) {
+        padding: 20px 0 30px 0;
+    }
+
+    .Testimonials .p-0 {
+        width: 55%;
+    }
+
+    .Testimonials .m-0 {
+        width: 55%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Testimonials {
+        padding-bottom: 70px;
+    }
+
+    .Testimonials .m-0 {
+        position: static !important;
+        width: auto;
+        padding-right: 20px;
+    }
+
+    .Testimonials .p-0 img {
+        padding-bottom: 30px;
+    }
+
+    .Testimonials .m-0 p:nth-of-type(1) {
+        padding-right: 0px;
+    }
+
+    .Testimonials .m-0 p:nth-of-type(2) {
+        padding: 20px 0px 30px 0;
+    }
+
+    .Testimonials .p-0 {
+        width: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .Testimonials {
+        padding-bottom: 50px;
+    }
+
+    .Testimonials h2 {
+        padding: 15px 0px 35px 0;
+    }
+
+}
+
+/*======== 1.7 END OF Testimonials Section  ======== */
+
+/*======== 1.7 Unknown Section  ======== */
+
+@media screen and (max-width: 1399px) {
+    .Unknown h2 {
+        padding-right: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .Unknown h2 {
+        padding-right: 60px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Unknown {
+        padding-bottom: 70px;
+    }
+
+    .Unknown h2 {
+        padding-right: 70px;
+    }
+
+    .Unknown p {
+        padding: 15px 0 30px 0;
+
+    }
+
+    .Unknown .d-flex {
+        column-gap: 10px;
+    }
+
+    .Unknown img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Unknown {
+        padding-bottom: 50px;
+    }
+
+    .Unknown h2 {
+        padding-right: 0;
+    }
+
+
+}
+
+/*======== END OF 1.8 Unknown Section ======== */
+
+/*======== 1.9 Resources Section ======== */
+
+@media screen and (max-width: 1399px) {
+    .Resources .d-flex p:nth-of-type(1) {
+        padding: 25px 10px 10px 0;
+    }
+
+    .Resources .d-flex p {
+        padding-right: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1199px) {
+    .Resources .d-flex p {
+        padding-right: 0px;
+    }
+
+    .Resources .d-flex p:nth-of-type(1) {
+        padding: 25px 0 10px 0;
+    }
+
+    .Resources .d-flex {
+        padding: 40px 12px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Resources {
+        padding-bottom: 70px;
+        background-image: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 25%, #EDFEFF 25%, #EDFEFF 100%);
+
+    }
+
+    .Resources h2 {
+        padding: 10px 0 40px 0;
+    }
+
+    .Resources .d-flex {
+        padding: 40px 30px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .Resources h2 {
+        padding: 10px 0 30px 0;
+    }
+
+    .Resources {
+        padding-bottom: 50px;
+    }
+
+}
+
+/*======== END OF 1.9 Resources Section ======== */
+
+/*======== 1.10 Footer Section ======== */
+
+@media screen and (max-width:991px) {
+    footer {
+        padding: 70px 0 50px 0;
+    }
+
+    footer hr {
+        margin: 50px 0 45px 0;
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+    footer {
+        padding: 50px 0 50px 0;
+    }
+
+    footer h3 {
+        padding-bottom: 20px;
+    }
+
+}
+
+/*======== END OF 1.10 Footer Section ======== */

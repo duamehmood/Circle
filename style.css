@@ -1,0 +1,687 @@
+/* import font family is == Plus Jakarta Sans ==*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* =====  01. Reset  ====== */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 1;
+    background: #FFFFFF;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background-color: #ffffff;
+    -webkit-text-fill-color: #7B7B7B;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+
+select::-ms-expand {
+    display: none;
+}
+
+label {
+    font-weight: normal;
+}
+
+iframe {
+    width: 100%;
+}
+
+.container {
+    overflow-y: visible !important;
+}
+
+/* =====  End of 01. Reset  ====== */
+/* ===== 02. Global Style ===== */
+
+
+h1 {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 55px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 35px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-decoration: none;
+}
+
+.hover1 {
+    color: #0CBBC7;
+    background-color: transparent;
+    padding: 14px 20px;
+    border: 1px solid #0CBBC7;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.hover1:hover {
+    background-color: #0CBBC7;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.hover2 {
+    color: white;
+    padding: 14px 20px;
+    background-color: #0CBBC7;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.hover2:hover {
+    background-color: #15d0de;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+
+/* ===== End of 02. Global Style ===== */
+
+/* ========= 1.1. Header section ======== */
+
+header .nav .d-flex a {
+    color: #191619;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header .nav .d-flex a:hover {
+    color: #858585
+}
+
+header img {
+    width: 95px;
+}
+
+
+
+/* ========= End of 1.1. Header section ======== */
+
+/* ========= 1.2. Hero section ======== */
+
+.Hero {
+    background-image: linear-gradient(to bottom, #EFFEFF 0%, #EFFEFF 70%, #FFFFFF 70%, #FFFFFF 100%);
+    padding: 100px 0;
+}
+
+.Hero h1 {
+    width: 100%;
+    padding: 0 250px;
+}
+
+.Hero p {
+    width: 100%;
+    color: #878787;
+    padding: 20px 410px 30px 410px;
+}
+
+/* ========= End of 1.2. Hero section ======== */
+
+/*======== 1.3. Customer Section ======== */
+
+.Customer {
+    padding-bottom: 100px;
+}
+
+.Customer .d-flex {
+    gap: 50px;
+}
+
+.Customer h3 {
+    color: #0CBBC7;
+    padding: 6px 10px;
+    background-color: #EFFEFF;
+    border-radius: 30px;
+    width: max-content;
+}
+
+.Customer h2 {
+    font-weight: 400;
+    padding: 20px 0 40px 0;
+}
+
+
+
+/* ========= End of 1.3.Customer Section ======== */
+
+/*======== 1.4. Promise Section ======== */
+
+.Promise {
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.Promise h3 {
+    color: #0CBBC7;
+    padding: 6px 10px;
+    background-color: #EFFEFF;
+    border-radius: 30px;
+    width: max-content;
+}
+
+.Promise h2 {
+    font-weight: 400;
+    padding: 10px 0 20px 0;
+}
+
+.Promise p {
+    color: #676767;
+    padding: 0 70px 20px 0;
+}
+
+/*======== END OF Promise Section ======== */
+
+/*======== 1.5 Awards Section ======== */
+
+.Awards {
+    padding-bottom: 100px;
+}
+
+.Awards h3 {
+    color: #0CBBC7;
+    padding: 6px 10px;
+    background-color: #EFFEFF;
+    border-radius: 30px;
+    width: max-content;
+}
+
+.Awards h2 {
+    padding: 10px 0 60px 0;
+    font-weight: 400;
+}
+
+.Awards p {
+    padding: 10px 120px 0 120px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.Awards .col-lg-4 div {
+    border: 2px solid transparent;
+}
+
+.Awards .col-lg-4 div:hover {
+    border: 2px solid rgb(62, 3, 3);
+}
+
+.Awards .col-lg-4:nth-child(1) div {
+    background-color: #FFF5F3;
+}
+
+.Awards .col-lg-4:nth-child(2) div {
+    background-color: #FFF0F9;
+}
+
+.Awards .col-lg-4:nth-child(3) div {
+    background-color: #ECFFFF;
+}
+
+.Awards .col-lg-4:nth-child(4) div {
+    background-color: #F6F4FF;
+}
+
+.Awards .col-lg-4:nth-child(5) div {
+    background-color: #FFF9E7;
+}
+
+.Awards .col-lg-4:nth-child(6) div {
+    background-color: #FFEDE4;
+}
+
+/*======== END OF 1.5 Awards Section ======== */
+
+/*======== 1.6 Built For People Section ======== */
+
+.Built {
+    padding-bottom: 100px;
+}
+
+.Built h3 {
+    color: #0CBBC7;
+    padding: 6px 10px;
+    background-color: #EFFEFF;
+    border-radius: 30px;
+}
+
+.Built h2 {
+    font-weight: 400;
+    padding: 10px 0 20px 0;
+}
+
+
+.Built .d-flex div {
+    column-gap: 6px;
+    width: 20%;
+}
+
+.Built .d-flex:nth-child(1) {
+    border-bottom: 3px solid #0CBBC7;
+}
+
+.Built .d-flex:nth-child(1) p {
+    color: #0CBBC7;
+}
+
+.Built .d-flex:nth-child(1) img {
+    opacity: 1;
+}
+
+.Built .d-flex p {
+    font-weight: 600;
+    color: rgba(103, 103, 103, 0.3);
+}
+
+.Built .d-flex div img {
+    opacity: 50%;
+}
+
+.Built .m-0 {
+    background-color: #EDFEFF;
+}
+
+.Built .mx-auto h2 {
+    font-weight: 700;
+    padding: 0;
+}
+
+.Built .mx-auto p:nth-of-type(1) {
+    font-weight: 700;
+    color: black;
+}
+
+.Built .mx-auto p:nth-of-type(2) {
+    line-height: 26px;
+    color: #676767;
+    padding-right: 70px;
+}
+
+
+/*======== END OF 1.6 Built Section  ======== */
+
+/*======== 1.7 Testimonials Section  ======== */
+
+.Testimonials {
+    padding-bottom: 100px;
+}
+
+.Testimonials h3 {
+    color: #0CBBC7;
+    border-radius: 30px;
+    padding: 6px 10px;
+    background-color: #EFFEFF;
+    width: max-content;
+}
+
+.Testimonials h2 {
+    font-weight: 400;
+    padding: 15px 100px 35px 0;
+}
+
+.Testimonials .p-0 img {
+    width: 100%;
+}
+
+.Testimonials .p-0 {
+    width: 60%;
+}
+
+.Testimonials .d-flex {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #0CBBC7;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.Testimonials i {
+    color: white;
+}
+
+.Testimonials .m-0 {
+    width: 50%;
+    background-color: #EDFEFF;
+    padding-left: 20px;
+    bottom: 0%;
+    right: 0%;
+}
+
+.Testimonials .m-0 img {
+    padding: 20px 0;
+}
+
+.Testimonials .m-0 p:nth-of-type(1) {
+    color: #676767;
+    line-height: 26px;
+    padding-right: 90px;
+}
+
+.Testimonials .m-0 p:nth-of-type(2) {
+    color: #333333;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 100px 30px 0;
+}
+
+/*======== END OF 1.7 Testimonials Section ======== */
+
+/*======== 1.7 Unknown Section  ======== */
+
+.Unknown {
+    padding-bottom: 100px;
+}
+
+.Unknown h2 {
+    font-weight: 400;
+    padding-right: 100px;
+}
+
+.Unknown p {
+    padding: 15px 30px 30px 0;
+    line-height: 26px;
+    color: #676767;
+}
+
+.Unknown .d-flex {
+    column-gap: 20px;
+}
+
+.Unknown .hover1,
+.hover2 {
+    font-size: 14px;
+}
+
+/*======== END OF 1.7 Testimonials Section ======== */
+
+/*======== 1.8 Resources Section ======== */
+
+.Resources {
+    padding-bottom: 100px;
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 43%, #EDFEFF 43%, #EDFEFF 100%);
+}
+
+.Resources h3 {
+    color: #0CBBC7;
+    border-radius: 30px;
+    padding: 6px 10px;
+    background-color: #EFFEFF;
+    width: max-content;
+}
+
+.Resources h2 {
+    font-weight: 400;
+    padding: 10px 0 50px 0;
+}
+
+.Resources .d-flex {
+    padding: 40px 30px;
+    background-color: white;
+}
+
+.Resources img {
+    width: 100%;
+}
+
+.Resources .d-flex p:nth-of-type(1) {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 25px 70px 10px 0;
+    color: #000000;
+}
+
+.Resources .d-flex p {
+    color: #676767;
+    font-size: 14px;
+    padding-right: 70px;
+}
+
+/*======== END OF 1.8 Resources Section ======== */
+
+/*======== 1.9 Footer Section ======== */
+
+footer {
+    padding: 100px 0 50px 0;
+    background-color: #232323;
+}
+
+footer .position-relative p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: max-content;
+}
+
+footer i {
+    color: red;
+}
+
+footer h3 {
+    line-height: 18px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    font-size: 16px;
+}
+
+footer .flex-column p {
+    font-size: 14px;
+    line-height: 40px;
+    color: #7C7C7C;
+    cursor: pointer;
+}
+
+footer .flex-column p:hover {
+    color: rgb(246, 227, 227);
+    transition: 1s ease;
+}
+
+footer hr {
+    height: 1px;
+    color: #403e3e;
+    opacity: 50%;
+    margin: 80px 0 45px 0;
+}
+
+footer p {
+    color: #9B9B9B;
+    font-size: 12px;
+}
+
+footer .d-flex {
+    column-gap: 20px;
+}
+
+footer .m-0 i {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    display: inline-block;
+    color: black;
+}
+
+footer .flex-wrap {
+    column-gap: 10px;
+}
+
+footer .d-flex hr {
+    width: 1px;
+    height: 12px;
+    color: white;
+    margin: 0;
+
+}
+
+/*======== END OF 1.10 Footer Section ======== */
